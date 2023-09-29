@@ -7,17 +7,19 @@ h1 {
 }
 p {
 	color: #000000;
-	font-family: "Comic Sans MS";
+	font-family: "Comic Sans MS", serif;
 	font-size: 11px;
 }
 #quote {
 	color: red;
-	font-family: "Papyrus";
-	border-width: 2px;
-	border-color: black;
+	font-family: "Pacifico", "Papyrus", serif;
+	border: 2px solid black;
+	border-radius: 10px;
+	text-align: center;
 	margin: auto;
 	width: 50%;
 	max-width: 100%;
+	text-shadow: 5px 5px blue;
 }
 .foo {
 	font-size: 20px;
@@ -31,4 +33,7 @@ img {
 	width: 1000px;
 	height: 100px;
 	float: right;
+}
+#heading {
+	position: fixed;
 }
