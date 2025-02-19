@@ -25,6 +25,7 @@ body {
 	position: sticky;
 	top: 0;
 	background-color: eeccaa;
+	z-index: 2;
 }
 
 #menu:after {
